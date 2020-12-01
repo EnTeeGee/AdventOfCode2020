@@ -1,6 +1,4 @@
 ﻿using AdventOfCode2020.Common;
-using System;
-using System.Linq;
 
 namespace AdventOfCode2020.Solutions
 {
@@ -9,7 +7,7 @@ namespace AdventOfCode2020.Solutions
         [Solution(1, 1)]
         public string Solution1(string input)
         {
-            var lines = input.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries).Select(it => Convert.ToInt32(it.Trim())).ToArray();
+            var lines = Parser.ToArrayOfInt(input);
 
             for(var i = 0; i < lines.Length; i++)
             {
@@ -26,7 +24,7 @@ namespace AdventOfCode2020.Solutions
         [Solution(1, 2)]
         public string Solution2(string input)
         {
-            var lines = input.Split(new[] { '\n' }, StringSplitOptions.RemoveEmptyEntries).Select(it => Convert.ToInt32(it.Trim())).ToArray();
+            var lines = Parser.ToArrayOfInt(input);
 
             for (var i = 0; i < lines.Length; i++)
             {
