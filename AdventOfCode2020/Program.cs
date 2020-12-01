@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using AdventOfCode2020.Common;
 
 namespace AdventOfCode2020
 {
@@ -10,6 +6,8 @@ namespace AdventOfCode2020
     {
         static void Main(string[] args)
         {
+            var manager = new Manager();
+            manager.Init();
         }
     }
 }
