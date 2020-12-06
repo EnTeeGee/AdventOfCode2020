@@ -22,5 +22,13 @@ namespace AdventOfCode2020.Common
         {
             return ToArrayOf(input, it => it);
         }
+
+        public static string[] ToArrayOfGroups(string input)
+        {
+            return input
+                .Split(new[] { Environment.NewLine + Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(it => it.Trim())
+                .ToArray();
+        }
     }
 }
