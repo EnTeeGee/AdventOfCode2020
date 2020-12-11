@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="Common\Manager.cs" />
     <Compile Include="Common\Parser.cs" />
+    <Compile Include="Common\Point.cs" />
     <Compile Include="Common\SolutionAttribute.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Solutions\Day08.cs" />
     <Compile Include="Solutions\Day09.cs" />
     <Compile Include="Solutions\Day10.cs" />
+    <Compile Include="Solutions\Day11.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
