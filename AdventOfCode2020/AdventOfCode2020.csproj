@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\Direction.cs" />
+    <Compile Include="Common\DirectionExtension.cs" />
     <Compile Include="Common\Manager.cs" />
     <Compile Include="Common\Parser.cs" />
     <Compile Include="Common\Point.cs" />
@@ -61,6 +63,7 @@
     <Compile Include="Solutions\Day09.cs" />
     <Compile Include="Solutions\Day10.cs" />
     <Compile Include="Solutions\Day11.cs" />
+    <Compile Include="Solutions\Day12.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
