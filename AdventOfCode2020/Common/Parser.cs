@@ -30,5 +30,10 @@ namespace AdventOfCode2020.Common
                 .Select(it => it.Trim())
                 .ToArray();
         }
+
+        public static string[] Split(string input, params string[] spliters)
+        {
+            return input.Split(spliters, StringSplitOptions.RemoveEmptyEntries).ToArray();
+        }
     }
 }

@@ -46,10 +46,12 @@
   <ItemGroup>
     <Compile Include="Common\Direction.cs" />
     <Compile Include="Common\DirectionExtension.cs" />
+    <Compile Include="Common\HyperVox.cs" />
     <Compile Include="Common\Manager.cs" />
     <Compile Include="Common\Parser.cs" />
     <Compile Include="Common\Point.cs" />
     <Compile Include="Common\SolutionAttribute.cs" />
+    <Compile Include="Common\Voxel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Solutions\Day01.cs" />
@@ -67,6 +69,8 @@
     <Compile Include="Solutions\Day13.cs" />
     <Compile Include="Solutions\Day14.cs" />
     <Compile Include="Solutions\Day15.cs" />
+    <Compile Include="Solutions\Day16.cs" />
+    <Compile Include="Solutions\Day17.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
