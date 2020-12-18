@@ -16,8 +16,6 @@ namespace AdventOfCode2020.Common
 
         public int Z { get; }
 
-        public HyperVox() { }
-
         public HyperVox(int w, int x, int y, int z)
         {
             W = w;
@@ -46,7 +44,7 @@ namespace AdventOfCode2020.Common
             if (!(obj is HyperVox))
                 return false;
 
-            var castObj = obj as HyperVox;
+            var castObj = (HyperVox)obj;
 
             return W == castObj.W && X == castObj.X && Y == castObj.Y && Z == castObj.Z;
         }
